@@ -7,8 +7,8 @@ set -Eeuo pipefail
 : "${MLB:=""}"               # Board serial
 : "${MAC:=""}"               # MAC address
 : "${UUID:=""}"              # Unique ID
-: "${WIDTH:="1366"}"         # Horizontal
-: "${HEIGHT:="768"}"        # Vertical
+: "${WIDTH:="1920"}"         # Horizontal
+: "${HEIGHT:="1080"}"        # Vertical
 : "${VERSION:="15"}"         # OSX Version
 : "${MODEL:="iMacPro1,1"}"   # Device model
 
