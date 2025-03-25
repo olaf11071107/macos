@@ -4,8 +4,6 @@ services:
     container_name: macos
     environment:
       VERSION: "15"
-      WIDTH: "1440"
-      HEIGHT: "1080"
     devices:
       - /dev/kvm
       - /dev/net/tun
