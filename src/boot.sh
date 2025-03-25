@@ -33,6 +33,8 @@ BOOT_OPTS+=" -global ICH9-LPC.disable_s3=1"
 BOOT_OPTS+=" -global ICH9-LPC.disable_s4=1"
 BOOT_OPTS+=" -global ICH9-LPC.acpi-pci-hotplug-with-bridge-support=off"
 
+BOOT_OPTS+=" -device VGA,vgamem_mb=128,xres=1366,yres=768"
+
 osk=$(echo "bheuneqjbexolgurfrjbeqfthneqrqcyrnfrqbagfgrny(p)NccyrPbzchgreVap" | tr 'A-Za-z' 'N-ZA-Mn-za-m')
 BOOT_OPTS+=" -device isa-applesmc,osk=$osk"
 
